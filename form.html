@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head><title>Form</title>
+	  <link rel="stylesheet" href="bootstrap.min.css">
+	  <script src="jquery.min.js"></script>
+	  <script src="bootstrap.min.js"> </script> 
+	  <link rel="stylesheet" type="text/css" href="css/form.css">
+	  
+
+<style>
+
+.header
+{
+background-color:aqua;
+font-family:oblique;
+margin-bottom:-60px;
+}
+h1
+{
+background-color:wheat;
+font-family:oblique;
+}
+p
+{
+font-style: oblique;
+}
+.f
+{
+margin-left:40px;
+}
+
+</style>
+</head>
+  <body>
+  <div class="header">	
+     <img src="images\logo.png" height="10%" width="10%" >
+<p align="center"><font size="7">M. K. Institute Of Computer Studies </font> </p>
+<p> <marquee direction="left"><font size="4">'B' GRADE NAAC ACCREDITED BCA COLLEGE </font></marquee></p><br>
+	</div>
+
+	<a name="f1"></a>
+    <h1 align="center">Admission Registration Form</h1>
+	<hr width="500" >
+	<div class="form">
+   <table width="50%" align="center" class="danger">
+    <form name="form1" action="login.html">
+	<div  class="form-group">
+	<tr>
+	<div class="f">
+	 <td>Name :</td>
+	<td><input type="text" placeholder="Full Name" maxlength="6" class="form-control"required> </td>
+	</tr>
+	</div>
+	<div class="form-group">
+	<tr>
+	<td>Password :</td>
+		<td><input type="Password" placeholder="Enter the Password" maxlength="8" class="form-control" required></td>
+	</tr>
+	</div>
+	<div class="form-group">
+	<tr>
+	 <td>Address :</td>
+	<td><textarea name="addr" class="form-control">
+		</textarea> 
+	 </td>
+	</tr>
+	</div>
+	<div class="form-group">
+	<tr>
+	 <td>Gender :</td>
+	   <td><label class="radio-inline"><input type="radio" name="s1" class="radio">Male</label>
+	       <label class="radio-inline"><input type="radio" name="s1" class="radio">female</label>
+	 </td>
+	</tr>
+	</div>
+	<div class="form-group">
+	<tr>
+	 <td> Qualification :</td>
+	 <div class="form-group">
+	  <td>  <select name="q1" class="form-control">
+					<option > 12th </option>
+					<option > BCA </option>
+				
+	</td>
+	</tr>
+	</div>
+	<div>
+	<tr>
+	<td> Phone no.</td>
+	<td><input type="number" min="6666666666" class="form-control"> </td>
+	</tr>
+	</div>
+	<tr>
+	 <td>
+	  State :</td>
+	   <td><select name="a1" class="form-control" >
+        <option>
+		  Gujarat
+        </option>	
+		<option>
+		  Rajasthan
+		</option>
+		<option>
+		  Pubjab
+		</option>
+         <option>
+		  Delhi
+		</option>
+        <option>
+		  Maharastra
+		</option>
+
+	   </select>
+	 </td>
+	</tr>
+	<tr>
+	<td colspan="2" align="center">
+	
+	   <button type="submit" class="btn btn-primary"> Submit </button>
+	   <button type="reset"  class="btn btn-primary"> Reset </button>
+	 </td>
+	 </tr>
+	</div>
+	</div>
+	</form>
+	</table>
+  </body>
+</html>

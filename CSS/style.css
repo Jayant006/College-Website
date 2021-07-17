@@ -1,0 +1,73 @@
+pre{
+font-size:20;
+font-family: oblique;
+}
+
+*{
+margin :0;
+padding :0;
+}
+.header
+{
+background-color:aqua;
+font-family: oblique;
+}
+body
+{
+background-color:OldLace;
+
+}
+
+.image{
+margin-top:-350px;
+margin-left:600px;
+width:30%;
+
+}
+
+.about{
+width:70%;
+overflow:hidden;
+}
+p{
+text-indent:20px;
+word-spacing:7px;
+font-style: oblique;
+font-size : 18px;
+}
+/*.list a{
+padding:8px;
+color:white;
+font-size:18px;
+background:#00ffff;
+}*/
+.list-color{
+background:#00ffcc;
+
+}
+.list ul li{
+float:left;
+padding : 40px;
+list-style : none;
+}
+ a
+{
+text-decoration:none;
+}
+h3
+{
+background-color:Wheat;
+}
+nav
+{
+background-color:lightgreen;
+}
+.n nav a
+{
+margin-left:80px;
+color:white;
+}
+a
+{
+text-decoration:none;
+}
